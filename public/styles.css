@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
