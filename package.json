@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-web-application",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack e-commerce web application with product management, cart, checkout, role-based access, REST APIs and MongoDB.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1"
+  }
+}
